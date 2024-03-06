@@ -30,6 +30,7 @@ export const App = () => {
 			setList([...list, { id: Date.now(), value: value }]);
 			setError('');
 			setValue('');
+			setIsValueValid(false);
 		}
 	};
 
